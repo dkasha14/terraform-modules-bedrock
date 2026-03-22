@@ -1,5 +1,5 @@
 variable "myvpc_name" {
-#        default = "myvpc"
+#        default = "dk-vpc"
 }
 
 variable "myvpc_cidr" {
@@ -7,22 +7,22 @@ variable "myvpc_cidr" {
 }
 
 variable "myigw_name" {
-  #      default = "myigw"
+  #      default = "dk-igw"
 }
 
 variable "myroute_name" {
-   #     default = "myroute"
+   #     default = "dk-route"
 }
 
 variable "mypubsubnet_name" {
 
-    #    default = "mypubsubnet"
+    #    default = "dk-pubsubnet"
 }
 variable "mypubsubnet_cidr" {
      #   default = "192.166.10.0/24"
 }
 
 variable "mysecgroup_name" {
-      #  default = "mysecgroup"
+      #  default = "dk-secgroup"
 }
 

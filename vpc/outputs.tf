@@ -1,11 +1,11 @@
 output "myvpcname" {
-        value = "${aws_vpc.myvpc.tags.Name}"
+  value = aws_vpc.myvpc.tags.Name
 }
 
 output "mysubnetid" {
-        value = "${aws_subnet.mypubsubnet.id}"
+  value = aws_subnet.mypubsubnet.id
 }
 
 output "mysgid" {
-        value = "${aws_security_group.mysecgroup.id}"
+  value = aws_security_group.mysecgroup.id
 }
