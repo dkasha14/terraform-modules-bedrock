@@ -3,7 +3,7 @@ variable "myserver_name" {
 }
 
 variable "keyname" {
-        default = "rajukey_nvirginia"
+        default = "asha.nvirg"
 }
 
 variable "instance_type" {
@@ -11,10 +11,10 @@ variable "instance_type" {
 }
 
 variable "vpcsgid" {
-	default = "sg-072e9a10d37a8d83d"
+	default = "sg-0781a19c15381d5aa"
 }
 
 variable "subnetid" {
 
-	default = "subnet-0dc6a94c335892cc4"
+	default = "subnet-06736c72a49c941ff"
 }
